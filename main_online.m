@@ -10,8 +10,11 @@
 % from FEA results.
 
 % In all cases the values of stress occuring at the region of stress
-% singularity are not included in the GP, Moving least squares, 
-for g=1:2 % Define number of test samples[The test samples have variations in the radius]
+% singularity are not included in the training data for both the GP and the Moving least squares model.
+
+% In order to test this code unzip and copy data from "data.zip" into the main directory and run this code.
+% The geometries considered had sharp reentrant corners and hence geometric singularities
+for g=1:3 % Define number of test samples[The test samples have variations in the radius]
 
 [input_d,input_h,input_v,input,st] = loader(g);
 data = inputdata(input_d,input_h,input_v,input,g);
