@@ -1,4 +1,4 @@
-%% Stress Singularity Study
+%% Stress Singularity and Gaussina Machine Learning Study
 
 % The script loads txt files from a defined file structure containing
 % stress analysis data with stress singularity. The study uses the Gaussian machine learning algorithm within
@@ -11,7 +11,7 @@
 
 % In all cases the values of stress occuring at the region of stress
 % singularity are not included in the GP, Moving least squares, 
-for g=1:k % Define number of test samples[The test samples have variations in the radius]
+for g=1:2 % Define number of test samples[The test samples have variations in the radius]
 
 [input_d,input_h,input_v,input,st] = loader(g);
 data = inputdata(input_d,input_h,input_v,input,g);
