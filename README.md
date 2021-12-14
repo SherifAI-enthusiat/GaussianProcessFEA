@@ -12,6 +12,7 @@ The singularity cases studied in this project are maninly due to geometric singu
 <img width="619" alt="image" src="https://user-images.githubusercontent.com/60384279/146007214-c3516bac-1ace-4dab-8634-58418a9da707.png">
 
 ### Why the Gaussian process?
+The Gaussian process is a probabilistic model as well as non-parametric. 
 The Gaussian process script is generated using the Regression learner in Matlab. Although a few modification were also made to explore to the kernel and the optimiser used.
 More information about the Gaussian process and it use can be found here:-(C. E. Rasmussen & C. K. I. Williams, Gaussian Processes for Machine Learning, the MIT Press, 2006)
 http://www.gaussianprocess.org/gpml/chapters/RW.pdf
@@ -28,7 +29,7 @@ The Gaussian machine learning approach was used to predict the ROI denoted as "t
 
 <img width="624" alt="image" src="https://user-images.githubusercontent.com/60384279/146014014-ba1810f2-ebf6-42ed-8546-eb2b8f06d1cf.png">
 
-### Author
-Name : Sherif Zantiba
-Supervisors : Dr Charles Lord & Dr Paul Gardner
-Date : 04/05/2020
+#### Author & Supervision team
+Name : Sherif Zantiba <br/>
+Supervisors : Dr Charles Lord & Dr Paul Gardner <br/>
+Date : 04/05/2020 <br/>
