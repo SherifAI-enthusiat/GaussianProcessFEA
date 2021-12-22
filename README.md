@@ -18,7 +18,7 @@ More information about the Gaussian process and it use can be found here:-(C. E.
 http://www.gaussianprocess.org/gpml/chapters/RW.pdf
  
 ### How were problems solved using the Gaussian process(GP)?
-Geometries of the form shown above were defined in Ansys 18.2, note that the geometries above are halves of the original due to symmetry. These geometries would be pulled from either direction with some defined amount of force. The stress,strain and deformation are then exported and used to train the GP model in Matlab to allow for prediction of the region of interest(ROI). An example image of how the tension specimen was defined is shown below; the ROI is the square section containing the stress singularity. The kernel used is the radial basis function (Gausian kernel).
+Geometries of the form shown above were defined in Ansys 18.2, note that the geometries above are halves of the original due to symmetry. These geometries would be pulled from either direction with some defined amount of force. The stress,strain and deformation are then exported and used to train the GP model in Matlab to allow for prediction of the region of interest(ROI). An example image of how the tension specimen was defined as shown below; the ROI is the square section containing the stress singularity. The kernel used is the radial basis function (Gausian kernel).
 
 <img width="561" alt="image" src="https://user-images.githubusercontent.com/60384279/146011542-a0a15462-9397-4479-bce0-82c3c6f0c501.png">
 
